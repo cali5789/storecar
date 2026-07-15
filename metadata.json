@@ -1,0 +1,6 @@
+{
+  "name": "Apex Luxury Car Blog & Compare",
+  "description": "An ultra-premium, sleek minimalist dashboard and editorial blog for elite hypercars. Compare technical specs, read deep-dive engineering articles, simulate performance physics, and join the enthusiast community.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-gold-50: #fbf8eb;
+  --color-gold-100: #f4edd0;
+  --color-gold-200: #e8db9f;
+  --color-gold-300: #d6bf65;
+  --color-gold-400: #c6a33b;
+  --color-gold-500: #b08726;
+  --color-gold-600: #93671c;
+  --color-gold-700: #744b19;
+  --color-gold-800: #5d3b19;
+  --color-gold-900: #4e3118;
+  --color-gold-950: #2c190a;
+
+  --color-titanium-50: #f6f6f7;
+  --color-titanium-100: #ececed;
+  --color-titanium-200: #d5d5d8;
+  --color-titanium-300: #b1b1b8;
+  --color-titanium-400: #868691;
+  --color-titanium-500: #676773;
+  --color-titanium-600: #555560;
+  --color-titanium-700: #474751;
+  --color-titanium-800: #3e3e46;
+  --color-titanium-900: #37373c;
+  --color-titanium-950: #1a1a1c;
+}
+
+/* Custom glow effects and scrollbar stylings for the sleek dashboard */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #121214;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Animations helper */
+.glow-gold {
+  box-shadow: 0 0 15px rgba(176, 135, 38, 0.15);
+}
+
+.glow-titanium {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.03);
+}
